@@ -1,0 +1,110 @@
+
+/* 
+    themeName :Zroudy.com
+    fristColor:#08526d
+    secondColor:#ec1c23
+
+
+*/
+ $secondColor :#bfc6c9  ;
+body {
+	background-color: rgba(0,0,0,0.1); ; 
+}
+.upper-bar{
+	
+	background-color:  #08526d ; 
+	padding:  10px  0px ; 
+}
+
+.upper-bar > * {
+	color:#fff;
+font-family: 'Roboto Condensed', sans-serif;
+}
+.upper-bar .col2
+{
+	margin-left: 20px ; 
+}
+
+nav{
+	background-color:#fff ;}
+nav .mediaPhone ,.menuPhone{
+	display:none ;
+}
+nav .container{
+	padding-top : 10px ; 
+	padding-bottom : 10px ;
+	max-width:100% !important ; 
+}
+nav .form-inline{
+	
+	display: flex;
+	 width: 40%;
+
+}
+nav .form-inline button {
+	 margin-left: 20px ;
+	}
+nav .navbar-nav{
+	width: 30% ;
+	justify-content: space-between; 	
+	margin-right: auto; 
+}
+nav .navbar-nav .nav-item {
+
+	color: #000 ;
+	font-weight: 700 ;
+}
+
+nav .navbar-nav .nav-item .nav-link{
+	color  : rgba(0,0,0,.6);
+		border-radius:10px ;
+}
+
+nav .navbar-brand{
+
+	width: 30%;
+	
+	}
+	nav .navbar-brand span {
+	
+	color: #08526d ; 
+	font-size: 30px ;
+	}
+	nav .navbar-brand span:nth-child(2){color: red}
+nav .dropdown  .or {
+	display: flex; 
+	flex-direction: row;
+	width: 100% ; 
+	
+}
+nav .dropdown  .or .bar{
+	display: flex;
+}
+		nav .dropdown  .or .bar hr {
+
+	width: 80px ;
+	margin-left: 5px  ; 
+	margin-right: 5px ;   
+
+	}
+	nav .dropdown-menu.show {
+    display: flex;
+    flex-direction: column;
+}
+nav .btn-primary{
+	background-color :#08526d ; 
+	width: 90% ;
+	margin: auto; 
+	border: none ;
+	
+}	
+
+
+
+nav .navbar-nav .nav-item .nav-link:hover {
+	
+	background-color:red  ; 
+	 
+	 color:#fff ;
+	  
+}	

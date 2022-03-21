@@ -1,0 +1,192 @@
+<header id="header">
+    <!-- start Upperbar -->
+  
+        <div class="upper-bar">
+            <div class="container">
+                
+                <div class="row">
+                
+                    <div class="col-lg data">
+                       <span class="col1"> <i class="fa fa-envelope-square"></i>    <span>alizroud2@gmail.com</span> 
+                       </span>
+                    <span class="col2"> <i class="fa fa-phone"></i>+216 29 878 895 
+                    </span>  
+                    </div>
+                    
+                    <div class="col-lg devis">
+                        <span>travaillons ensemble</span>
+                    <span class=" col2 border border-danger devis " >obtenir un devis</span>
+                    </div>
+                
+                </div>
+            
+            </div>
+        </div>
+  
+    <!-- end Upperbar -->
+   
+    <!-- start NavBar -->
+  
+    <nav class="navbar navbar-expand-lg navbar-light ">
+     
+        <div class="container">
+       
+       
+        <div class="titleSite">
+            <button  class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+         
+        <a class="navbar-brand" ><span>Zroudy</span><span>.Com</span></a>
+       
+        </div>
+        <div class="mediaPhone">
+  
+            <div class="icon-serch">
+                <!-- <i class="fa fa-search" aria-hidden="true"></i> -->
+                <a>
+                <i class="fa fa-user-circle"></i>
+                    
+                </a>
+                    <i class="fa fa-shopping-basket"></i>
+            </div>
+          
+        </div>
+  
+        <div   class="collapse navbar-collapse"  id="navbarSupportedContent">
+      
+  
+            <div   class="scroller menuPhone">
+                
+                <a class="dropdown-item itemMain" href="#">
+  
+                    <i class="fa fa-comments-o" aria-hidden="true"></i>
+                    
+                    Aide en ligne  </a>
+         
+                <a 
+                               class=" dropdown-item connection " href='profile'>
+                    Votre Compte Zroudy 
+                    <span>
+                    <i  class="fa fa-chevron-right"></i>
+                    </span>
+                </a>
+
+                <a  class="dropdown-item" > <i class="fa fa-user" aria-hidden="true"></i>   Votre Compte</a>
+                <a  class="dropdown-item" > <i class="fa fa-tasks" aria-hidden="true"></i> Vos  commandes </a>
+                <a  class="dropdown-item" > <i class="fa fa-envelope" aria-hidden="true"></i> boîte de réception </a>
+                <a  class="dropdown-item" > <i class="fa fa-heart" aria-hidden="true"></i> Votre liste d'envies</a>
+                
+                <div> <a  class="dropdown-item connection " href="#">
+                    Contactez-Nous </a>
+               </div>
+
+                
+                    
+                 <a  class="dropdown-item connection articles"  href="#">
+                    nos catégories
+                    <span>
+                        Voir plus
+                    </span> 
+                </a>
+            </div>
+  
+            <form class="form-inline  m-auto my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Chercher un produit" aria-label="Search">
+               
+            </form>
+    
+  
+            <ul class="navbar-nav m-auto ">
+            
+            
+  
+  
+                
+                <li
+                
+
+                
+                class="nav-item dropdown" >
+            
+                    <a
+                     class="nav-link" data-bs-toggle="dropdown" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" 
+>
+                        <i class="fa fa-user-circle"></i>  Se Connecter
+                    </a>
+            
+                   
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="btn btn-primary" >Se connecter</a>
+                       
+                        <div class="or" >
+                            <div class="bar">
+                                <hr><span>ou</span><hr>
+                            </div>
+                        </div>
+  
+                        <a class=" btn btn-primary" >Créer un compte</a>
+                    </div>
+  
+                 </li>
+                 <li
+ 
+                 class="nav-item dropdown con"  >
+             
+             
+                    
+                     <div   aria-labelledby="navbarDropdown2" class="dropdown-menu">
+                        <a  id="profile-ilm" class="dropdown-item"href="profile"> <i class="fa fa-user" aria-hidden="true"></i>   Votre Compte</a>
+                        <a id="profile-ilm" class="dropdown-item" href="profile/command"> <i class="fa fa-tasks" aria-hidden="true"></i> Vos  commandes </a>
+                        <a id="profile-ilm" class="dropdown-item" href="profile/BoiteReception"> <i class="fa fa-envelope" aria-hidden="true"></i> boîte de réception </a>
+                        <a id="profile-ilm" class="dropdown-item" href="profile/vos-avis"> <i class="fa fa-heart" aria-hidden="true"></i> Votre liste d'envies</a>
+                        
+                        <a id="btn-deconnection"class="btn btn-outline-success my-2 my-sm-0 dropdown-item" href="#"
+                        >DÉCONNEXION</a>
+  
+                    </div>
+
+   
+                  </li>
+                    <li class="nav-item dropdown"  >
+            
+                    <a 
+                                         class="  nav-link" data-bs-toggle="dropdown" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" 
+>
+
+                        <i class="fa fa-question-circle"></i>Aide
+                    
+                    </a>
+            
+                   
+                    <div   aria-labelledby="navbarDropdown1" class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Passer et suivre ma commande</a>
+                        <a class="dropdown-item" href="#">Annler ma commande </a>
+                        <a class="dropdown-item" href="#">Remboursement </a>
+                        
+                        <a class="dropdown-item" href="#">Paiement</a>
+                        <div class="dropdown-divider"></div>
+                        <a class=" btn btn-primary " href="#">Contactez-Nous</a>
+  
+                    </div>
+  
+                </li>
+                <li class=" nav-item panier   ">
+                   
+                    <a class="nav-link"> 
+                    <i class="fa fa-shopping-basket"></i> Panier
+            
+                    </a>
+                </li>
+            
+                   
+          </ul>
+        </div>
+      </div>
+      </nav>
+    <!-- end NavBar -->
+  
+  </header>
+  
+  
