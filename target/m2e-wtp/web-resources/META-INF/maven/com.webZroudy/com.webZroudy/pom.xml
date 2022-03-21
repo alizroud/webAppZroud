@@ -4,4 +4,103 @@
   <artifactId>com.webZroudy</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  <dependencies>
+		  
+		  <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpclient</artifactId>
+    <version>4.5.13</version>
+</dependency>
+		  
+		  <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.13.1</version>
+</dependency>
+		  
+		  <!-- https://mvnrepository.com/artifact/javax/javaee-web-api -->
+		<dependency>
+		    <groupId>javax</groupId>
+		    <artifactId>javaee-web-api</artifactId>
+		    <version>8.0</version>
+		    <scope>provided</scope>
+		</dependency>
+
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-webmvc</artifactId>
+		    <version>5.2.1.RELEASE</version>
+		</dependency>
+		
+				<!-- https://mvnrepository.com/artifact/jstl/jstl -->
+		<dependency>
+		    <groupId>jstl</groupId>
+		    <artifactId>jstl</artifactId>
+		    <version>1.2</version>
+		</dependency>
+						
+			<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<dependency>
+		    <groupId>mysql</groupId>
+		    <artifactId>mysql-connector-java</artifactId>
+		    <version>8.0.28</version>
+		</dependency>
+  
+		  <!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-jdbc</artifactId>
+		    <version>5.3.15</version>
+		</dependency>
+				
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-data-jpa</artifactId>
+    <version>2.6.3</version>
+</dependency>
+		
+  </dependencies>
+
+<build>
+	<pluginManagement>
+		<plugins>
+		<plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.10.0</version>
+       <configuration>
+            <tomeeClassifier>webprofile</tomeeClassifier>
+            <context>ROOT</context>
+            <synchronization>
+                <extensions>
+                    <extension>.class</extension>
+                </extensions>
+            </synchronization>
+            <reloadOnUpdate>true</reloadOnUpdate>
+            <systemVariables>
+                <openejb.system.apps>true</openejb.system.apps>
+                <tomee.serialization.class.blacklist>-</tomee.serialization.class.blacklist>
+            </systemVariables>
+        </configuration>
+       
+       </plugin>
+       <plugin>
+    <groupId>org.apache.tomcat.maven</groupId>
+    <artifactId>tomcat7-maven-plugin</artifactId>
+    <version>2.1</version>
+    <configuration>
+    <port>8080</port>
+               <reloadOnUpdate>true</reloadOnUpdate>
+   
+    <path>/</path>
+    <contextReloadable>true</contextReloadable>
+    </configuration>
+    </plugin>
+		</plugins>
+	</pluginManagement>
+
+</build>
 </project>
